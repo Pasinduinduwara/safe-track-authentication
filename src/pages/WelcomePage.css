@@ -1,0 +1,80 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #e4f0ff, #f8eaff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  color: #2d2dff;
+  margin-bottom: 0.5rem;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.brand-text {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #2d2dff;
+}
+
+.brand-text span {
+  color: black;
+}
+
+.subtitle {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-btn,
+.register-btn {
+  padding: 10px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 200px;
+  transition: background 0.3s ease;
+}
+
+.login-btn {
+  background-color: #4f7dff;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: #365edf;
+}
+
+.register-btn {
+  background-color: transparent;
+  border: 2px solid #4f7dff;
+  color: #4f7dff;
+}
+
+.register-btn:hover {
+  background-color: #4f7dff;
+  color: white;
+}
